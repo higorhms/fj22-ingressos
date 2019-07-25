@@ -1,1 +1,1 @@
-Adicioando novas funcionalidades no projeto realizado por Magno Sescon
+Adicioando novas funcionalidades ao projeto
