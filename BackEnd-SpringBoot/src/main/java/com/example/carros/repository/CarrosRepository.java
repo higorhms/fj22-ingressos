@@ -1,11 +1,13 @@
 package com.example.carros.repository;
 
-import org.springframework.data.repository.CrudRepository;
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.example.carros.models.Carro;
 
-public interface CarrosRepository extends CrudRepository<Carro, Long> {
+public interface CarrosRepository extends JpaRepository<Carro, Long> {
 
-	Iterable<Carro> findByTipo(String tipo);
+	List<Carro> findByTipo(String tipo);
 
 }
